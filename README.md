@@ -16,4 +16,4 @@ src/show_run.py   print one run in readable form
 list_models.py    list the Bedrock models available to you
 ```
 
-Safety: agent containers have no cloud credentials and no internet. Model calls are made by the host program, not by the agents. The local test backend has no isolation and refuses to run real models.
+Safety: agent containers have no cloud credentials and no internet. 
