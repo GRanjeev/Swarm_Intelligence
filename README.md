@@ -1,4 +1,4 @@
-# Side-channel emergence in tool-using agent pairs
+# Squeezed Channels, Open Doors: How Tool-Using Agents Move Data Outside Monitored Messages.
 
 Do AI agents sneak around the official message channel, would monitoring notice, and does locking down the environment stop it?
 
