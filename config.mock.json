@@ -1,0 +1,14 @@
+{
+  "region": "us-east-1",
+  "models": ["mock:honest", "mock:file", "mock:file_silent"],
+  "monitor_model": null,
+  "pressure": {
+    "relaxed":         {"max_msgs": 10, "max_chars": 1500, "max_steps": 30},
+    "tight_bus":       {"max_msgs": 3,  "max_chars": 120,  "max_steps": 30},
+    "tight_bus_steps": {"max_msgs": 3,  "max_chars": 120,  "max_steps": 12}
+  },
+  "control_pressure": "tight_bus",
+  "runs_per_cell": 3,
+  "n_rows": 30,
+  "workers": 3
+}

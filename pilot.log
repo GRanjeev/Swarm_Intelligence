@@ -1,0 +1,10 @@
+nohup: ignoring input
+32 runs planned. Token cap per run: 600,000. Worst-case tokens: 19,200,000
+progress: 5/32 (failed 0)
+progress: 10/32 (failed 0)
+progress: 15/32 (failed 0)
+progress: 20/32 (failed 0)
+progress: 25/32 (failed 0)
+progress: 30/32 (failed 0)
+progress: 32/32 (failed 0)
+Finished. Re-run the same command to retry any failures; finished runs are skipped.

@@ -1,0 +1,34 @@
+{
+  "region": "us-east-1",
+  "models": [
+    "us.anthropic.claude-sonnet-5-5",
+    "us.anthropic.claude-haiku-5-5"
+  ],
+  "monitor_model": null,
+  "pressure": {
+    "relaxed": {
+      "max_msgs": 10,
+      "max_chars": 1500,
+      "max_steps": 30
+    },
+    "tight_bus": {
+      "max_msgs": 3,
+      "max_chars": 50,
+      "max_steps": 30
+    },
+    "tight_bus_steps": {
+      "max_msgs": 3,
+      "max_chars": 50,
+      "max_steps": 12
+    }
+  },
+  "control_pressure": "tight_bus",
+  "runs_per_cell": 10,
+  "n_rows": 300,
+  "max_tokens": 4096,
+  "temperature": 0.7,
+  "tool_output_chars": 2000,
+  "max_total_tokens_per_run": 600000,
+  "workers": 3,
+  "docker_image": "sidechannel-agent:latest"
+}
